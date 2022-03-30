@@ -1,0 +1,24 @@
+package driverScripts;
+
+import java.io.IOException;
+
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class Keyword {
+
+	public static void main(String[] args) throws IOException {
+		String xlPath = "D:\\Testing_Batch_9PM\\Workspace\\SeleniumProject\\src\\com\\SeleniumProject\\inputdata\\Keyword.xlsx";
+		
+		XSSFWorkbook wb = new XSSFWorkbook(xlPath);
+		XSSFSheet TC_Sht = wb.getSheet("Testcase");
+		XSSFSheet TS_Sht = wb.getSheet("Teststeps");
+		XSSFSheet TD_Sht = wb.getSheet("TestData");
+		
+		int TC_Sht_Rc = TC_Sht.getLastRowNum();
+		
+ 		
+
+	}
+
+}

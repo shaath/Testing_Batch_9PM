@@ -1,0 +1,5 @@
+package com.SeleniumProject.Tests;
+
+public class LoginTest_POM {
+
+}

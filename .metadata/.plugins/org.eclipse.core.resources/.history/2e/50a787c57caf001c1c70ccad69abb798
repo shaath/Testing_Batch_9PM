@@ -1,0 +1,13 @@
+package com.mvnProject.programmes;
+
+import org.testng.annotations.Test;
+
+public class FFLaunch {
+
+	@Test
+	public void test()
+	{
+		
+	}
+
+}

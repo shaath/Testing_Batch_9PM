@@ -1,0 +1,17 @@
+package com.mvnProject.programmes;
+
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
+
+public class FFLaunch {
+
+	@Test
+	public void test()
+	{
+		System.setProperty("webdriver.gecko.driver", "D:\\Testing_Batch_9PM\\Jars/geckodriver.exe");
+		FirefoxDriver driver = new FirefoxDriver();
+		
+		driver.get("https://facebook.com");
+	}
+
+}

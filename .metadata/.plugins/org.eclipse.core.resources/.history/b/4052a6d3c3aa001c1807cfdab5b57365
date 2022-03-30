@@ -1,0 +1,14 @@
+package testNG;
+
+import org.testng.annotations.Test;
+
+import methods.GenericMethods;
+
+public class TestNG_SerialExe extends GenericMethods {
+
+	@Test
+	public void exe()
+	{
+		
+	}
+}

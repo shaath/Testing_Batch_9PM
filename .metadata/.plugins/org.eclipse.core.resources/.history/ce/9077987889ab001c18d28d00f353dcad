@@ -1,0 +1,17 @@
+package driverScripts;
+
+import java.io.IOException;
+
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class Keyword {
+
+	public static void main(String[] args) throws IOException {
+		String xlPath = "D:\\Testing_Batch_9PM\\Workspace\\SeleniumProject\\src\\com\\SeleniumProject\\inputdata\\Keyword.xlsx";
+		
+		XSSFWorkbook wb = new XSSFWorkbook(xlPath);
+		
+
+	}
+
+}
